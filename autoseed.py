@@ -47,18 +47,13 @@ for line in mediainfo.readlines():
 
 # duration=3600
 
-#taek screenshoots
+#take screenshoots
 n=5#set screenshoots number
 buffer=2#set screenshoots buffer number (in case some screenshoots are vague)
 n_buffered=n+buffer
 for i in range(n_buffered):
 	time_sec=duration/(n_buffered+2)*(i+2)
 	subprocess.run('/usr/bin/ffmpeg -ss {time_sec} -i "{path}{file_name}" -f image2 -vframes 1 "{path_temp}{i}foo.png" -y >/dev/null 2>&1'.format(path=path,path_temp=path_temp,file_name=file_name,time_sec=str(time_sec),i=i), shell=True)
-'''
-#auto upload screenshoots to hdc website
-s=requests.session()
-hdc_upload_pic(s,path_temp)
-'''
 
 #auto upload screenshoots to imgur
 s=requests.session()
