@@ -12,7 +12,7 @@ echo "alias autoseed='python3 /script/autoseed/main.py'" > ~/.bashrc
 autoseed execute
 ```
 
-食用前请自行修改autoseed.py中```base_dir```
+食用前请自行修改autoseed.py中```base_dir```并给给图片上传jio本填上apikey或者cookie
 
 ```folder name```可留空
 
