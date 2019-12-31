@@ -13,3 +13,7 @@ autoseed execute
 ```
 
 食用前请自行修改autoseed.py中```base_dir```
+
+```folder name```可留空
+
+没了
