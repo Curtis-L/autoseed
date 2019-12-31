@@ -5,6 +5,7 @@
 ```
 apt update&&apt install mediainfo ffmpeg -y
 mkdir /script
+cd /script
 git clone https://github.com/Curtis-L/autoseed
 echo "alias autoseed='python3 /script/autoseed/main.py'" > ~/.bashrc
 . ~/.bashrc
