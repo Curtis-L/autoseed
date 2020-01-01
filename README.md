@@ -17,8 +17,10 @@ autoseed execute
 
 
 例：
-base_dir="/home/pt/qbittorrent/download/"
+```base_dir="/home/pt/qbittorrent/download/"```
+
 ```/home/pt/qbittorrent/download/a.mkv```，```folder name```留空，```file name```输入```a.mkv```
+
 ```/home/pt/qbittorrent/download/a/a.mkv```，```folder name```输入```a```，```file name```输入```a.mkv```
 
 没了
