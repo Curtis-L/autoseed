@@ -4,7 +4,7 @@
 食用方法：
 ```
 apt update&&apt install mediainfo ffmpeg -y
-pip install pyimgur brotli requests
+pip3 install pyimgur brotli requests
 mkdir /script
 cd /script
 git clone https://github.com/Curtis-L/autoseed
