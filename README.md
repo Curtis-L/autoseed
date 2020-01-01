@@ -13,8 +13,12 @@ echo "alias autoseed='python3 /script/autoseed/main.py'" > ~/.bashrc
 autoseed execute
 ```
 
-食用前请自行修改autoseed.py中```base_dir```并给图片上传jio本填上apikey或者cookie
+食用前请自行修改```autoseed.py```中```base_dir```并给图片上传jio本填上```apikey```或者```cookie```
 
-```folder name```可留空
+
+例：
+base_dir="/home/pt/qbittorrent/download/"
+```/home/pt/qbittorrent/download/a.mkv```，```folder name```留空，```file name```输入```a.mkv```
+```/home/pt/qbittorrent/download/a/a.mkv```，```folder name```输入```a```，```file name```输入```a.mkv```
 
 没了
