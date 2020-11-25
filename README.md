@@ -4,7 +4,7 @@
 食用方法：
 ```
 apt update&&apt install mediainfo ffmpeg -y
-pip3 install pyimgur brotli requests
+pip3 install pyimgur brotli requests ptpimg_uploader
 mkdir /script
 cd /script
 git clone https://github.com/Curtis-L/autoseed
@@ -13,8 +13,8 @@ echo "alias autoseed='python3 /script/autoseed/main.py'" > ~/.bashrc
 autoseed execute
 ```
 
-食用前请自行修改```autoseed.py```中```base_dir```并给图片上传jio本填上```apikey```或者```cookie```
-
+食用前请自行修改```autoseed.py```中```base_dir, base_url, announce_url```并给图片上传jio本填上```apikey```或者```cookie```
+update: 注释掉了用python自带的http server，改为配合星大脚本的h5ai使用。
 
 
 
